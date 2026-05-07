@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Rubicat Silica — Arena para gatos premium</title>
+  <meta name="description" content="Rubicat Silica — La mejor arena de sílica para tu gato. Superabsorbente, antibacterial y sin perfume." />
+  <link rel="stylesheet" href="/css/style.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+</head>
+<body>
+
+  <!-- ========================
+       NAVBAR
+  ========================= -->
+  <header>
+    <nav class="navbar" role="navigation" aria-label="Menú principal">
+      <a class="navbar__logo" href="#inicio" aria-label="Rubicat — inicio">
+        <img src="/images/logo.webp" alt="Rubicat logo" />
+      </a>
+
+      <ul class="navbar__links" role="list">
+        <li><a href="#inicio">Inicio</a></li>
+        <li><a href="#productos">Productos</a></li>
+        <li><a href="#nosotros">Nosotros</a></li>
+        <li>
+          <a
+            class="navbar__cta"
+            href="https://listado.mercadolibre.com.ar/rubicat-silica-aglutinante#D[A:rubicat%20silica%20aglutinante]"
+            target="_blank"
+            rel="noopener noreferrer"
+          >Comprá acá</a>
+        </li>
+      </ul>
+
+      <button class="navbar__hamburger" aria-label="Abrir menú" aria-expanded="false">
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
+    </nav>
+  </header>
+
+  <main>
+
+    <!-- ========================
+         HERO / BANNER
+    ========================= -->
+    <section id="inicio" class="hero">
+      <img
+        class="hero__banner hero__banner--desktop"
+        src="/images/banner-desktop.webp"
+        alt="Rubicat Silica — Conseguí la nueva línea"
+      />
+      <img
+        class="hero__banner hero__banner--mobile"
+        src="/images/banner-mobile.webp"
+        alt="Rubicat Silica — Conseguí la nueva línea"
+      />
+    </section>
+
+    <!-- ========================
+         PRODUCTOS
+    ========================= -->
+    <section id="productos" class="productos">
+      <h2 class="section-title">Nuestra <span>línea</span> Sílica</h2>
+      <p class="section-subtitle">Dos fórmulas diseñadas para el máximo confort de tu gato y tu tranquilidad.</p>
+
+      <div class="productos__grid">
+
+        <!-- Card 1: Silica clásica -->
+        <article class="producto-card producto-card--silica">
+          <div class="producto-card__imagen">
+            <img
+              src="/images/producto-silica.webp"
+              alt="Rubicat Silica — Arena de sílica clásica 3.8L"
+              loading="lazy"
+            />
+          </div>
+          <div class="producto-card__info">
+            <span class="producto-card__tag">3.8 Litros · Gel Granulado</span>
+            <h3 class="producto-card__nombre">Rubicat<br>Silica</h3>
+            <p class="producto-card__descripcion">
+              Arena de sílica de gel granulado que absorbe líquidos al instante. Sin perfume, sin polvo, con protección antibacterial duradera.
+            </p>
+            <ul class="producto-card__features">
+              <li>Super absorbente</li>
+              <li>Elimina olores</li>
+              <li>Protección bacterial</li>
+              <li>Libre de perfume</li>
+            </ul>
+          </div>
+        </article>
+
+        <!-- Card 2: Silica Aglutinante -->
+        <article class="producto-card producto-card--aglutinante">
+          <div class="producto-card__imagen">
+            <img
+              src="/images/producto-aglutinante.webp"
+              alt="Rubicat Silica Aglutinante — Arena de sílica aglutinante 3.8L"
+              loading="lazy"
+            />
+          </div>
+          <div class="producto-card__info">
+            <span class="producto-card__tag">3.8 Litros · Arena Sílica</span>
+            <h3 class="producto-card__nombre">Silica<br>Aglutinante</h3>
+            <p class="producto-card__descripcion">
+              Fórmula aglutinante que forma cúmulos compactos para una limpieza más fácil y eficiente. Larga duración con máximo control de olores.
+            </p>
+            <ul class="producto-card__features">
+              <li>Fórmula aglutinante</li>
+              <li>Forma cúmulos</li>
+              <li>Elimina olores</li>
+              <li>Libre de perfume</li>
+            </ul>
+          </div>
+        </article>
+
+      </div>
+    </section>
+
+    <!-- ========================
+         BOTÓN MERCADOLIBRE
+    ========================= -->
+    <section class="comprar-section">
+      <a
+        class="btn-ml"
+        href="https://listado.mercadolibre.com.ar/rubicat-silica-aglutinante#D[A:rubicat%20silica%20aglutinante]"
+        target="_blank"
+        rel="noopener noreferrer"
+        aria-label="Comprar Rubicat en Mercado Libre"
+      >
+        <!-- Ícono ML -->
+        <svg width="28" height="28" viewBox="0 0 64 64" fill="none" xmlns="http://www.w3.org/2000/svg">
+          <ellipse cx="32" cy="32" rx="32" ry="32" fill="#FFE600"/>
+          <path d="M32 14C32 14 20 22 20 32C20 38.627 25.373 44 32 44C38.627 44 44 38.627 44 32C44 22 32 14 32 14Z" fill="#009EE3"/>
+          <path d="M26 32L30 36L38 28" stroke="white" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+        </svg>
+        Comprá en Mercado Libre
+      </a>
+      <p class="comprar-label">Envíos a todo el país · Stock disponible</p>
+    </section>
+
+    <!-- ========================
+         SOBRE NOSOTROS
+    ========================= -->
+    <section id="nosotros" class="nosotros">
+      <div class="nosotros__texto">
+        <h2 class="section-title">Sobre <span>Rubicat</span></h2>
+        <p>
+          Somos una empresa argentina dedicada a la salud y bienestar de los gatos. Nuestras arenas de sílica están formuladas con los más altos estándares de calidad para ofrecer higiene, confort y durabilidad.
+        </p>
+        <p>
+          Creemos que cada gato merece lo mejor. Por eso desarrollamos productos que combinan tecnología de punta con el cuidado que tu mascota se merece: sin químicos agresivos, sin perfumes artificiales, y con máxima eficiencia.
+        </p>
+        <p>
+          Rubicat es sinónimo de confianza. Cada bolsa que llega a tu hogar es el resultado de un proceso riguroso de control de calidad, pensado para vos y para tu gato.
+        </p>
+      </div>
+      <div class="nosotros__logo">
+        <img src="/images/logo.webp" alt="Rubicat logo" />
+      </div>
+    </section>
+
+  </main>
+
+  <!-- ========================
+       FOOTER
+  ========================= -->
+  <footer id="contacto" class="footer">
+    <p>© 2025 Rubicat Silica · Todos los derechos reservados</p>
+    <p style="margin-top:8px;">
+      Seguinos en 
+      <a href="#" aria-label="Instagram Rubicat">Instagram</a> · 
+      Consultanos en <a href="mailto:info@rubicat.com.ar">info@rubicat.com.ar</a>
+    </p>
+  </footer>
+
+  <script src="/js/main.js"></script>
+</body>
+</html>
