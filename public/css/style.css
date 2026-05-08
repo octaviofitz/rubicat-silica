@@ -57,14 +57,16 @@ body {
 }
 
 .navbar__logo img {
-  height: 48px;
+  height: 64px;
   width: auto;
   display: block;
+  margin-left: -1rem;
 }
 
 @media (min-width: 769px) {
   .navbar__logo img {
     height: 72px;
+    margin-left:0rem;
   }
 }
 
