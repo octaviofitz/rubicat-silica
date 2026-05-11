@@ -1,15 +1,62 @@
 <!DOCTYPE html>
 <html lang="es">
-<head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Rubicat Sílica - Arena Aglutinante para Gatos</title>
-  <meta name="description" content="Rubicat Silica — La mejor arena sílica para tu gato. Superabsorbente, antibacterial y sin perfume." />
-  <link rel="stylesheet" href="/css/style.css" />
-  <link rel="icon" type="image/png" href="/images/favicon.png" />
-  <link rel="preconnect" href="https://fonts.googleapis.com" />
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-</head>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  
+    <title>Rubicat Sílica - Arena Aglutinante para Gatos</title>
+  
+    <meta
+      name="description"
+      content="Rubicat Silica — La mejor arena sílica para tu gato. Superabsorbente, antibacterial y sin perfume."
+    />
+  
+    <!-- Mejoras de conexión -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  
+    <!-- Fuentes sin bloquear render -->
+    <link
+      rel="preload"
+      as="style"
+      href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@700;800;900&family=Barlow:wght@400;500;600&display=swap"
+      onload="this.onload=null;this.rel='stylesheet'"
+    />
+  
+    <noscript>
+      <link
+        rel="stylesheet"
+        href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@700;800;900&family=Barlow:wght@400;500;600&display=swap"
+      />
+    </noscript>
+  
+    <!-- Preload de imagen LCP -->
+    <link
+      rel="preload"
+      as="image"
+      href="/images/banner-desktop.webp"
+      media="(min-width: 769px)"
+      fetchpriority="high"
+    />
+  
+    <link
+      rel="preload"
+      as="image"
+      href="/images/banner-mobile.webp"
+      media="(max-width: 768px)"
+      fetchpriority="high"
+    />
+  
+    <!-- CSS -->
+    <link rel="stylesheet" href="/css/style.css" />
+  
+    <!-- Favicon -->
+    <link
+      rel="icon"
+      type="image/webp"
+      href="/images/favicon.webp"
+    />
+  </head>
 <body>
 
   <!-- ========================
@@ -18,7 +65,7 @@
   <header>
     <nav class="navbar" role="navigation" aria-label="Menú principal">
       <a class="navbar__logo" href="#inicio" aria-label="Rubicat — inicio">
-        <img src="/images/logoBanner.png" alt="Rubicat logo" />
+        <img src="/images/logoBanner.webp" alt="Rubicat logo" />
       </a>
 
       <ul class="navbar__links" role="list">
@@ -77,13 +124,11 @@
               class="producto-img--desktop"
               src="/images/producto-silica.webp"
               alt="Rubicat Silica — Arena de sílica clásica 3.8L"
-              loading="lazy"
             />
             <img
               class="producto-img--mobile"
-              src="/images/producto-silica-mobile.png"
+              src="/images/producto-silica-mobile.webp"
               alt="Rubicat Silica — Arena de sílica clásica 3.8L"
-              loading="lazy"
             />
           </div>
           <div class="producto-card__info">
@@ -108,13 +153,11 @@
               class="producto-img--desktop"
               src="/images/producto-aglutinante.webp"
               alt="Rubicat Silica Aglutinante — Arena de sílica aglutinante 3.8L"
-              loading="lazy"
             />
             <img
               class="producto-img--mobile"
-              src="/images/producto-aglutinante-mobile.png"
+              src="/images/producto-aglutinante-mobile.webp"
               alt="Rubicat Silica Aglutinante — Arena de sílica aglutinante 3.8L"
-              loading="lazy"
             />
           </div>
           <div class="producto-card__info">
